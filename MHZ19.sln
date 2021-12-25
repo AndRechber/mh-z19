@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MHZ19.TestTool", "MHZ19.TestTool\MHZ19.TestTool.csproj", "{F5254C7F-1404-43AD-8EF3-7A73BF6544AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MHZ19.Sensor", "MHZ19.Sensor\MHZ19.Sensor.csproj", "{7356E7FC-8327-4437-A80E-1039B049B4C1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Documents", "Documents", "{65D6A116-E276-42FE-A330-FA8CD266E63C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F5254C7F-1404-43AD-8EF3-7A73BF6544AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5254C7F-1404-43AD-8EF3-7A73BF6544AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5254C7F-1404-43AD-8EF3-7A73BF6544AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5254C7F-1404-43AD-8EF3-7A73BF6544AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7356E7FC-8327-4437-A80E-1039B049B4C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7356E7FC-8327-4437-A80E-1039B049B4C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7356E7FC-8327-4437-A80E-1039B049B4C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7356E7FC-8327-4437-A80E-1039B049B4C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B75B4BD-EE0B-459F-86C2-C8FC56C86C3C}
+	EndGlobalSection
+EndGlobal
