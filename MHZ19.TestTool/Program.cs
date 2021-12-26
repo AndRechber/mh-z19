@@ -23,10 +23,9 @@ namespace MHZ19.TestTool
             {
                 using (MHZ19Sensor sensor = SensorFactory.CreateUartSensor(serialPort))
                 {
-                    sensor.StartZeroPointCalibration();
-                    //Measurement measurement = sensor.Read();
-                    //Console.WriteLine("Co2: " + measurement.Co2 + " ppm");
-                    //Console.WriteLine("Temperature: " + measurement.Temperature + " °C");
+                    Measurement measurement = sensor.Read();
+                    Console.WriteLine("Co2: " + measurement.Co2 + " ppm");
+                    Console.WriteLine("Temperature: " + measurement.Temperature + " °C");
                 }
             }
             catch (SensorException ex)
