@@ -13,7 +13,7 @@ Access via Raspberry Pi
    {
        Measurement measurement = sensor.Read();
        Console.WriteLine("Co2: " + measurement.Co2 + " ppm");
-       Console.WriteLine("Temperature: " + measurement.Temperature + " °C");
+       Console.WriteLine("Temperature: " + measurement.Temperature + " Â°C");
    }
 ```
 
@@ -25,3 +25,4 @@ Start: sudo dotnet MHZ19.TestTool.dll
 
 ## Tested
 Tested with MH-Z19C Sensor (https://www.winsen-sensor.com/sensors/co2-sensor/mh-z19c.html) and Raspberry Pi 2
+Documentation of sensor https://www.winsen-sensor.com/d/files/infrared-gas-sensor/mh-z19c-pins-type-co2-manual-ver1_0.pdf
