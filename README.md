@@ -18,8 +18,7 @@ Access via Raspberry Pi
 ```
 
 ### Raspberry Pi Hint
-When running with Raspberry Pi it is necessary to stop serial-getty@<serial port>.service
-Stop for serial port /dev/serial0: sudo systemctl stop serial-getty@serial0.service
+When running with Raspberry Pi disable console via serialport by removing 'console=serial0,115200' from /boot/cmdline.txt for access to /dev/serial0
 
 ## MHZ19.TestTool
 This is a console test tool for testing the library.
