@@ -17,6 +17,9 @@ Access via Raspberry Pi
    }
 ```
 
+### Raspberry Pi Hint
+When running with Raspberry Pi it is necessary to stop serial-getty@<serial port>.service
+Stop for serial port /dev/serial0: sudo systemctl stop serial-getty@serial0.service
 
 ## MHZ19.TestTool
 This is a console test tool for testing the library.
